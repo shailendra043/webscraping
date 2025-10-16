@@ -6,7 +6,8 @@
     "startUrl": {
       "title": "Start URL",
       "type": "string",
-      "description": "The URL to start scraping from."
+      "description": "The URL to start scraping from.",
+      "editor": "textfield"
     }
   },
   "required": ["startUrl"]
