@@ -1,0 +1,12 @@
+{
+  "title": "Input schema for webscraping actor",
+  "type": "object",
+  "properties": {
+    "startUrl": {
+      "title": "Start URL",
+      "type": "string",
+      "description": "The URL to start scraping from."
+    }
+  },
+  "required": ["startUrl"]
+}
